@@ -27,7 +27,7 @@ API of the test application - https://demoqa.com/swagger/.
 
 * The description of the UI part in the code should be performed using the Page Object pattern
 * Run tests with Chrome browser support
-* Use the WebDriver Manager library
+* Use the WebDriver Manager library. The library allows you to automatically download the web driver of the desired version and not attach the file to the repository.
 * The main actions in the test should be accompanied by logging using any logger of your choice (Log4j or any other)
 
 ### **Project components**
