@@ -1,6 +1,5 @@
-*
+.idea
+*.iml
 
-!.gitignore
-!src
-!pom.xml
-!README.md
+.DS_Store
+/target
