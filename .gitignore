@@ -1,5 +1,7 @@
 .idea
 *.iml
+misc.xml
+vcs.xml
 
 .DS_Store
 /target
