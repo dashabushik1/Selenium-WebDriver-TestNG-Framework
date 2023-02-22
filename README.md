@@ -4,7 +4,7 @@
 The object of testing is the Book Store Application test application (https://demoqa.com/books).
 API of the test application - https://demoqa.com/swagger/.
 
-### **Stack & Libraries**
+### **Prerequisites**
 
 ****
 
