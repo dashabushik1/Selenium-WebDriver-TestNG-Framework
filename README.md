@@ -1,4 +1,4 @@
-# Selenium WebDriver TestNG Framework
+# Web Automation using Selenium Java
 
 ****
 The object of testing is the Book Store Application test application (https://demoqa.com/books).
@@ -8,18 +8,10 @@ API of the test application - https://demoqa.com/swagger/.
 
 ****
 
-* Java
-* TestNG
-* Maven
-* Selenium WebDriver
-
-### **Prerequisites**
-
-****
-
-* IntelliJ IDEA CE
-* JDK (version 7)
-* Maven configuration
+* Java 7 as programming language
+* TestNG as a Unit Test Automation framework
+* Maven for Package Management and Build Automation
+* Selenium WebDriver for Web App GUI Test Automation
 
 ### **Mandatory requirements**
 
