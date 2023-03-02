@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends BasePage {
-    private final By loginButton = By.id("login");
-    private final By userName = By.id("UserName");
+    private final By loginButton = By.xpath("//button[@id='login']");
+    private final By userName = By.id("userName");
     private final By password = By.id("password");
 
     public LoginPage(WebDriver driver) {
