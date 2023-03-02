@@ -8,7 +8,7 @@ API of the test application - https://demoqa.com/swagger/.
 
 ****
 
-* Java 7 as programming language
+* Java as programming language
 * TestNG as a Unit Test Automation framework
 * Maven for Package Management and Build Automation
 * Selenium WebDriver for Web App GUI Test Automation
@@ -21,23 +21,6 @@ API of the test application - https://demoqa.com/swagger/.
 * Run tests with Chrome browser support
 * Use the WebDriver Manager library. The library allows you to automatically download the web driver of the desired version and not attach the file to the repository.
 * The main actions in the test should be accompanied by logging using any logger of your choice (Log4j or any other)
-
-### **Project components**
-
-****
-
-* Page objects are in the directory src/main/java/pages
-* Test classes are in the the directory src/test/java/tests
-* Listener class is in the directory src/main/java/util
-
-### **Highlights**
-
-****
-
-* This framework supports Chrome browser
-* This uses WebDriver Manager, an open source browser binary manager. WebDriver Manager automatically checks the latest
-  version of the browser downloaded on your machine and downloads the required driver binary into the cache, eliminating
-  the need to manually download and store binary files.
 
 ### **Task completion criteria**
 
