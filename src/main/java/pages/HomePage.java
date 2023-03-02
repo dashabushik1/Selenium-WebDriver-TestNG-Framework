@@ -9,7 +9,7 @@ import java.util.List;
 public class HomePage extends BasePage {
 
     private final By loginButton = By.id("login");
-    private final By booksWrapper = By.xpath("//div[@class='rt-tbody']");
+    private final By booksWrapper = By.xpath("//span[contains(@id, 'see-book')]");
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -21,14 +21,14 @@ public class HomePage extends BasePage {
         logger.info("Login page was opened.");
     }
 
-    public boolean areBooksMatch(List<String> booksFromApi) {
-        List<WebElement> uiBooks = driver.findElements(booksWrapper);
-        for (String book : booksFromApi) {
-            if (uiBooks.contains(book)) {
-                return true;
+    public boolean findIfAllApiAndUiBooksMatch(List<String> booksFromApi) {
+        List<String> bookNames = driver.findElements(booksWrapper).stream().map(WebElement::getText).toList();
+        for (String bookName : booksFromApi) {
+            if (!bookNames.contains(bookName)) {
+                return false;
             }
-            logger.info("Books are matched.");
         }
-        return false;
+        logger.info("Books are matched.");
+        return true;
     }
 }
