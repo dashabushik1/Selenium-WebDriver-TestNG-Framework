@@ -1,7 +1,7 @@
 # Web Automation using Selenium Java
 
 ****
-The object of testing is the Book Store Application test application (https://demoqa.com/books).
+The object of testing is the model.Book Store Application test application (https://demoqa.com/books).
 API of the test application - https://demoqa.com/swagger/.
 
 ### **Prerequisites**
@@ -35,13 +35,13 @@ API of the test application - https://demoqa.com/swagger/.
 #### **Task 1**
 
 ****
-Check the main functionality of the login (the ability to log in) in the Book Store Application web
+Check the main functionality of the login (the ability to log in) in the model.Book Store Application web
 application - https://demoqa.com/books .
 It is possible to create a user directly for the test using an existing application API.
 
 #### **Task 2**
 
 ****
-Check that the list of books on the Book Store page matches the list of books from the response API. To solve the
+Check that the list of books on the model.Book Store page matches the list of books from the response API. To solve the
 problem, use the existing list of books that is presented in the appendix (https://demoqa.com/books ). Compare books by
 name (Title).
