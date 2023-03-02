@@ -23,6 +23,6 @@ public class BookStoreTest extends BaseTest {
 
         List<String> allBooks = jsonPathEvaluator.getList("books.title");
 
-        home.areBooksMatch(allBooks);
+        home.findIfAllApiAndUiBooksMatch(allBooks);
     }
 }
